@@ -32,3 +32,21 @@ We can pass into it values from the terminal
 ```c++
   std::cin >> arr[2] >> std::endl;
 ```
+
+We can create multi-dimentional arrays 
+
+```c++
+  int arr [2][5] {};
+  
+  arr[1][2] = 40;
+```
+
+
+
+## Vectors
+
+Vector is the standard way of creating arrays
+
+```c++
+  vector <int> vec (6);
+```
